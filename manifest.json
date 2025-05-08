@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Quotidian Poem",
+    "version": "1.0",
+    "description": "Get a daily poem every time you click the extension.",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://www.poemist.com/api/v1/randompoems"
+    ],
+    "permissions": ["scripting"]
+}
